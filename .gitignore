@@ -1,0 +1,38 @@
+# Code::Blocks build output
+# (both targets write the executable to the project root, objects to obj/)
+/SpaceInvaders
+/SpaceInvaders.exe
+bin/
+obj/
+*.o
+*.obj
+*.exe
+
+# Code::Blocks per-user files
+*.depend
+*.layout
+*.cbTemp
+*.save
+
+# SDL runtime DLLs copied next to the executable (see README "Dependencies")
+*.dll
+
+# User-supplied game ROMs (do not ignore C++ *.h headers)
+*.rom
+*.rom.*
+/data/invaders.e
+/data/invaders.f
+/data/invaders.g
+/data/invaders.h
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Temporary helper files
+tmp_rovo_*
